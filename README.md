@@ -1,17 +1,13 @@
-![Integrando seu projeto React com APIs](thumbnail.png)
+![Integrando seu projeto React com APIs]
 
 # EatsEmporium
 
-O EatsEmporium é um site que lista restaurantes e pratos do menu. 
-É um MVP que tá só começando e ainda tem muitas funcionalidades novas para serem desenvolvidas.
-
-<img src="screencapture.png" alt="Imagem do EatsEmporium" width="50%">
-
+O EatsEmporium é um site que lista restaurantes e pratos do menu, com uma área administrativa. 
 
 ## 🔨 Funcionalidades do projeto
 
 O EatsEmporium começa com uma listagem estática de seu conteúdo e é esse o problema que queremos resolver.
-No decorrer do curso, vamos implementar toda a camada de comunicação com a API.
+Sendo implementado toda a camada de comunicação com a API.
 
 ## ✔️ Técnicas e tecnologias utilizadas
 
