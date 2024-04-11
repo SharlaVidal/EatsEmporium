@@ -1,0 +1,46 @@
+/* Estilos para o formulário e os botões */
+.ListaRestaurantes {
+  text-align: center;
+
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  form {
+    margin-bottom: 20px;
+  }
+
+  input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    width: 200px;
+  }
+
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+      background-color: #0056b3;
+    }
+
+    & + button {
+      margin-left: 10px;
+    }
+
+    &:disabled {
+      background-color: #ccc;
+      cursor: not-allowed;
+    }
+  }
+}
