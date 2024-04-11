@@ -1,4 +1,4 @@
-import axios , { AxiosRequestConfig } from "axios";
+import axios, { AxiosRequestConfig } from 'axios';
 
 const axiosConfig: AxiosRequestConfig = {
     baseURL: 'http://localhost:8000/api/v2/'
@@ -6,4 +6,11 @@ const axiosConfig: AxiosRequestConfig = {
 
 const http = axios.create(axiosConfig);
 
-export default http
+http.interceptors.request.use(function (config) {
+    config.headers['Access-Control-Allow-Origin'] = 'https://eats-emporium-bmzk.vercel.app';
+    return config;
+}, function (error) {
+    return Promise.reject(error);
+});
+
+export default http;
