@@ -43,12 +43,12 @@ const buscar = (evento: React.FormEvent<HTMLFormElement>) => {
   if (busca) {
     opcoes.params.search = busca
   }
-  carregarDados('http://localhost:8000/api/v1/restaurantes/', opcoes)
+  carregarDados('https://localhost:8000/api/v1/restaurantes/', opcoes)
 }
 
   
     useEffect(()=> {
-      axios.get<IPaginacao<IRestaurante>>('http://localhost:8000/api/v1/restaurantes/')
+      axios.get<IPaginacao<IRestaurante>>('https://localhost:8000/api/v1/restaurantes/')
     }, [] ) ;
 
 
