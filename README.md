@@ -1,4 +1,4 @@
-![Integrando seu projeto React com APIs]
+Integrando o projeto React com APIs
 
 # EatsEmporium
 
